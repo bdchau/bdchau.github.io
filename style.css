@@ -1,0 +1,304 @@
+@font-face {
+    font-family: source sans pro light;
+    src: url('SourceSansPro-Light.otf');
+}
+
+@font-face {
+    font-family: Akrobat;
+    src: url('Akrobat-bold.otf');
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("background.png");
+    max-width: 100%;
+}
+
+.splash {
+    position: relative;
+    margin: 10% auto;
+    padding: 0;
+    width: 50%;
+    color: white;
+    font-family: source sans pro light;
+}
+
+.Two {
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    top: 90vh;
+}
+
+.Three {
+    position: relative;
+    margin: 10% auto;
+    top: 200vh;
+    width: 100%;
+    color: white;
+    font-family: source sans pro light;
+    text-align: center;
+}
+
+.Four {
+    position: relative;
+    margin: 10%;
+    width: 80%;
+    height: 60vh;
+    color: white;
+    font-family: source sans pro light;
+    top: 200vh;
+}
+
+.four img {
+    position: absolute;
+    top: -50px;
+    left: -250px;
+}
+
+.Five {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: source sans pro light;
+    top: 200vh;
+    text-align: center;
+    height: 100vh;
+    background: url('hashtag.png');
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle table {
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    left: -40px;
+    top: -150px;
+}
+
+.nav {
+    position: relative;
+    list-style: none;
+    display: inline;
+    font: bold 20px Akrobat, sans-serif;
+    color: white;
+}
+
+ul.nav li {
+
+    padding-right: 40px;
+    min-width: 1px;
+    display: inline;
+}
+
+.social {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+
+.social img {
+    width: 48px;
+    height: auto;
+}
+
+.sideText {
+    position: absolute;
+    top: 100px;
+    width: 45%;
+}
+
+#sImage {
+    position: absolute;
+    left: -507px;
+    top: -500px;
+}
+
+h1 {
+    font-size: 62px;
+    font-family: Akrobat;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.1s ease-in;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #e61e28;
+}
+
+a:active {
+    color: #71eadc;
+}
+
+
+.button {
+    background-color: #71eadc;
+    border: none;
+    font-family: Akrobat;
+    font-weight: 800;
+    color: #3c1d2d;
+    padding: 16px 32px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent;
+    color: #71eadc;
+    border: 3px solid #71eadc;
+}
+
+.button1:hover {
+    background-color: #71eadc;
+    color: #3c1d2d;
+}
+
+#infoLoot {
+    position: absolute;
+    top: 60px;
+    left: 125px;
+}
+
+.intro {
+    top: 100px;
+    left: -200px;
+    width: 550px;
+}
+
+h2 {
+    font-family: Akrobat;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: 1px solid #e61e28;
+    margin: 0px;
+}
+
+.detail {
+    position: absolute;
+    top: 370px;
+    left: -200px;
+    width: 420px;
+}
+
+.bad {
+    top: 700px;
+}
+
+.money {
+    left: 900px;
+    top: 190px;
+    width: 220px;
+}
+
+.stat {
+    top: 500px;
+}
+
+.statNum {
+    font-size: 90px;
+    margin: -16;
+    padding: 0;
+}
+
+table {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    font-family: source sans pro light;
+}
+
+th {
+    font-family: Akrobat;
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 0 80px;
+    vertical-align: bottom;
+}
+
+
+.lootStat{
+    width: 500px;
+    text-align: center;
+    margin: 0;
+    border-top: 2px solid #e61e28;
+}
+
+.number {
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+    line-height: 0;
+}
+
+.title {
+    height: 0;
+    line-height: 0px;
+}
+
+.next {
+    margin-top: 100px;
+}
+
+.hashtag {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-shadow: 0 0 15px #daf6f5;
+}
+
+.slogan {
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+}
+
+.five img {
+    position: relative;
+    top: 100px;
+}
+
+.step {
+    position: absolute;
+    left: 1000px;
+    top: 0px;
+}
