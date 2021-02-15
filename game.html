@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Case Opening</title>
+</head>
+
+<body style="overflow-y: hidden">
+    <div style="position: fixed; top: -20px; opacity: 0.5;">
+        <img src="splash.png">
+    </div>
+    <div class="splash">
+        <div id="sImage" style="position: absolute; left: 320px; top: -200px">
+            <canvas id="canvas" width="400" height="400"></canvas>
+        </div>
+        <div class="sideText" style="position: absolute; left: -200px; top: 0px">
+            <h1>Lootbox Opening</h1>
+            <h3>This game shows what it feels like to open loot boxes in a video game called Counter-Strike: Global Offensive.
+                The win rates for each item are the same as they are in the video game.</h3><button id="click" class="button button1">Open Lootbox</button>
+            <h2 id="unbox text">Unbox a Case</h2>
+            <table class="lootStat">
+                <tr class="lootStat number">
+                    <td style="vertical-align: bottom;">
+                        <span style="font-size: 90px; color: #e61e28; mix-blend-mode: screen;">
+                            <h1 id="spent">0</h1>
+                        </span>
+                    </td>
+                    <td style="vertical-align: bottom;">
+                        <span style="font-size: 90px; color: #71eadc; mix-blend-mode: screen;">
+                            <h1 id="earned">0</h1>
+                        </span>
+                    </td>
+                    <td rowspan="2" align="left" style="line-height: 0.3;">
+                        <h3>&nbsp;&nbsp;&nbsp;Blue: <span id="blue">0</span></h3>
+                        <h3>&nbsp;&nbsp;&nbsp;Purple: <span id="purple">0</span></h3>
+                        <h3>&nbsp;&nbsp;&nbsp;Pink: <span id="pink">0</span></h3>
+                        <h3>&nbsp;&nbsp;&nbsp;Red: <span id="red">0</span></h3>
+                        <h3>&nbsp;&nbsp;&nbsp;Yellow: <span id="yellow">0</span></h3>
+                    </td>
+                </tr>
+                <tr class="lootStat title">
+                    <td>
+                        <h3>Total Spent ($)</h3>
+                    </td>
+                    <td>
+                        <h3>Total Earned ($)</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/lootboxgambling/"><img src="fb-hash.png"></a>
+        </div>
+        <div class="menu">
+            <ul class="nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="game.html" class="home"><span style="text-decoration: overline;">Lootbox Simulator</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
